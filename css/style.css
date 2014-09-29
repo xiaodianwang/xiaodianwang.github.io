@@ -1,0 +1,135 @@
+body {
+font-family:"Avenir Next", sans-serif;	
+margin:0px;
+}
+
+h2 {
+	margin-top:0px;
+	font-size:40px;
+	text-align:center;
+	color:#2E2E2E;
+	font-weight:400;
+}
+
+p {
+	font-size:20px;
+	color:#2E2E2E;
+	text-align:center;
+}
+
+.banner {
+	background: url(../img/alameda-bridge.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+	background-size:cover;
+	position:relative;
+	height:400px;
+	width:100%;
+	overflow:hidden;/*Don't know why this div has extra white space above it*/
+}
+
+#masthead {
+	font-size:100px;
+	font-weight:400;
+	position: relative;
+	top:40%;
+	text-align:center;
+	padding-left:2%;
+	color:#FFFFFF;
+	text-shadow:5px 5px 5px #424242;
+	opacity:0.8;
+	margin:0px;
+}
+
+.nav {
+	background-color:#999999;
+	text-align:center;
+}
+
+.nav ul {
+	padding:5px 0px;
+	margin:0px;
+	width:100%;
+}
+
+.nav li {
+	margin:0em 5%;
+	display:inline;
+}
+
+.nav a {
+	text-decoration:none;
+	font-size:20px;	
+	color:#F2F2F2;
+}
+
+.nav a:hover {
+	color:#2E2E2E;
+}
+
+.intro {
+	padding:3% 0;
+	background-color:#F2F2F2;
+}
+
+.intro img, .ramble img {
+	width:30%;
+	border-radius:50%;
+	display:block;
+	margin:0 auto;
+}
+
+.explore {
+	padding:0 0 3% 0;
+	background-color:#F2F2F2;
+}
+.explore h2{
+	padding:3% 0 0 0;
+}
+
+.explore img {
+	display:block;
+	width:100%;
+}
+
+.explore ul {
+	font-size:20px;
+	color:#2E2E2E;
+	text-align:center;
+	list-style-position:inside;
+}
+
+.ramble {
+	padding:3% 0;
+	background-color:#D8D8D8;
+	text-align:center;
+}
+
+.ramble table {
+	margin:0 auto;
+}
+.ramble tr {
+	color:#2E2E2E;
+	text-align: right;
+	background-color:#FAFAFA;
+	border: 3px solid #D8D8D8;
+}
+
+.ramble ul {
+	color:#2E2E2E;
+	font-size:20px;
+	padding:5px 0px;
+	margin:0px;
+	list-style-position:inside;
+	width:100%;
+}
+
+footer {
+	padding-top:3%;
+	background-color:#F2F2F2;
+	text-align:center;
+}
+
+footer img {
+	width:40px;
+}
