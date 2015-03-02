@@ -21,11 +21,12 @@ p {
 	background: url(../img/alameda-bridge.jpg);
 	background-repeat:no-repeat;
 	background-position:top;
+	background-attachment:fixed;
 	background-size:cover;
 	position:relative;
 	height:400px;
 	width:100%;
-	overflow:hidden;/*Don't know why this div has extra white space above it*/
+	/*overflow:hidden;Don't know why this div has extra white space above it*/
 }
 
 #masthead {
@@ -44,6 +45,10 @@ p {
 .nav {
 	background-color:#999999;
 	text-align:center;
+	opacity:0.7;
+	position:absolute;
+	bottom:0;
+	width: 100%;
 }
 
 .nav ul {
