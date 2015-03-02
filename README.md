@@ -1,2 +1,2 @@
 # xiaodianwang.github.io
-My personal website.
+Repository for my personal website.
